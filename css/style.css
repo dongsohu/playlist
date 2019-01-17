@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    font-family: 'Kaushan Script', cursive;
 }
 
 #cart {
@@ -63,4 +64,17 @@ input {
 button {
     font-size: 14px;
     padding: 5px 10px;
+}
+#background{
+    background-image: linear-gradient(red, yellow);
+    height: 100vw;
+}
+p{
+    font-family: 'Petit Formal Script', cursive;
+}
+input{
+    font-family: 'Petit Formal Script', cursive;
+}
+button{
+    font-family: 'Petit Formal Script', cursive;
 }
