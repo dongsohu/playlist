@@ -37,7 +37,10 @@ var songLinks=[
 
 function displaySongInfo(){
     // BELOW Use forEach Loop to display the data from each of your arrays in the correct div
-
+        imgs.forEach(function(people){
+            $("#images").append("<div>" + "<a href='" + people + "'>link</a>" + "</div>");
+        });
+        
 }
 
 function emptySongInfo(){
@@ -50,6 +53,10 @@ function emptySongInfo(){
 
 function addSongInfo(){
     // BELOW write the code to add new items to each of the arrays.
+    //within button click
+    // collect each value of inputs using the id
+    // push the values to each array
+    // imgs.push($("#image").val());
 
 
 }
