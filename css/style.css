@@ -78,3 +78,10 @@ input{
 button{
     font-family: 'Petit Formal Script', cursive;
 }
+
+#links img{
+    display: block;
+    height: 100px;
+    width: auto;
+    margin: 20px;
+}

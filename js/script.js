@@ -50,7 +50,7 @@ function displaySongInfo(){
             $("#lengths").append("<p>" + people + "</p>")
         });
         songLinks.forEach(function(people){
-            $("#links").append("<div>" + "<a href='" + people + "'>link2</a>" + "</div>")
+            $("#links").append("<div>" + "<a href='" + people + "'><img src ='https://xen.com.au/wp-content/uploads/youtube-new-logo.png'></a>" + "</div>")
         });
 }
 
@@ -61,18 +61,18 @@ function emptySongInfo(){
     $("#links").empty();
     $("#lengths").empty();
     // Use jQuery to empty all of the remaining divs
-
-
 }
-
 
 function addSongInfo(){
     // BELOW write the code to add new items to each of the arrays.
     //within button click
     // collect each value of inputs using the id
     // push the values to each array
-    // imgs.push($("#image").val());
-
+     imgs.push($("#image").val());
+     songs.push($("#song").val());
+     artist.push($("#artist").val());
+     songLengths.push($("#length").val());
+     songLinks.push($("#link").val());
 
 }
 
